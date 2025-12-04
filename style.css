@@ -504,6 +504,14 @@ footer {
 }
 
 /* Touch-friendly button sizes */
+.mobile-menu-btn {
+  transition: transform 0.3s ease;
+}
+
+.mobile-menu-btn.active {
+  transform: rotate(90deg);
+}
+
 button, .btn {
   min-height: 44px;
   min-width: 44px;
