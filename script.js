@@ -207,6 +207,7 @@ class SigetaDashboard {
 
     btn.addEventListener("click", () => {
       nav.classList.toggle("active");
+      btn.classList.toggle("active");
     });
   }
 
