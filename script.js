@@ -166,10 +166,10 @@ class SigetaDashboard {
     const el = document.getElementById("connectionStatus");
     if (!el) return;
     const messages = {
-      connected: "✅ Terhubung ke server HiveMQ Cloud",
-      connecting: "🔄 Menghubungkan ke server...",
-      disconnected: "❌ Terputus dari server",
-      demo: "🔶 Mode Demo (Data simulasi)",
+      connected: "Terhubung ke server",
+      connecting: "Menghubungkan ke server...",
+      disconnected: "Terputus dari server",
+      demo: "Mode Demo (Data simulasi)",
     };
     el.textContent = messages[status] || "Status tidak diketahui";
     el.className = `connection-status ${status}`;
