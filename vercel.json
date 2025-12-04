@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 {
   "version": 2,
   "builds": [
@@ -8,7 +8,7 @@
     { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
-=======
+
 {
   "version": 2,
   "builds": [
@@ -18,4 +18,3 @@
     { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
->>>>>>> afe59de7ecc8a02253dfd0c3e6ad80ebc05779c1
