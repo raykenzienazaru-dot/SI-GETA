@@ -36,7 +36,7 @@ class SigetaDashboard {
 
       this.setupMQTTEvents();
     } catch (error) {
-      console.error("❌ Gagal inisialisasi MQTT:", error);
+      console.error("Gagal inisialisasi MQTT:", error);
       this.updateConnectionStatus("disconnected");
       this.handleConnectionError();
     }
@@ -44,7 +44,7 @@ class SigetaDashboard {
 
   setupMQTTEvents() {
     this.client.on("connect", () => {
-      console.log("✅ Terhubung ke HiveMQ Cloud");
+      console.log("Terhubung");
       this.isConnected = true;
       this.reconnectAttempts = 0;
       this.updateConnectionStatus("connected");
