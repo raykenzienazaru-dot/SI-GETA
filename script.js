@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 class SigetaDashboard {
   constructor() {
     this.client = null;
@@ -244,7 +244,7 @@ document.addEventListener("DOMContentLoaded", () => {
 window.addEventListener("beforeunload", () => {
   if (window.sigetaDashboard) window.sigetaDashboard.disconnect();
 });
-=======
+
 class SigetaDashboard {
   constructor() {
     this.client = null;
@@ -490,4 +490,4 @@ document.addEventListener("DOMContentLoaded", () => {
 window.addEventListener("beforeunload", () => {
   if (window.sigetaDashboard) window.sigetaDashboard.disconnect();
 });
->>>>>>> afe59de7ecc8a02253dfd0c3e6ad80ebc05779c1
+

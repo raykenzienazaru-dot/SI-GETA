@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /* CSS Variables */
 :root {
   --primary-color: #2c7873;
@@ -512,7 +512,7 @@ button, .btn {
 /* Improve scrolling on mobile */
 .smooth-scroll {
   -webkit-overflow-scrolling: touch;
-=======
+}
 /* CSS Variables */
 :root {
   --primary-color: #2c7873;
@@ -1026,5 +1026,5 @@ button, .btn {
 /* Improve scrolling on mobile */
 .smooth-scroll {
   -webkit-overflow-scrolling: touch;
->>>>>>> afe59de7ecc8a02253dfd0c3e6ad80ebc05779c1
+
 }
