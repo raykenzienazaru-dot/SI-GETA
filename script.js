@@ -9,9 +9,9 @@ class SigetaDashboard {
 
     // === HiveMQ Cloud config (pakai WebSocket Secure) ===
     this.config = {
-      host: "wss://5a3f69bb4b2048c198b57db5820a2fb1.s1.eu.hivemq.cloud:8884/mqtt",
-      username: "esp32-kenzie",
-      password: "Esp32-kenzie",
+     host: "wss://j0fde21a.ala.asia-southeast1.emqxsl.com:8084/mqtt",
+     username: "Esp32-kenzie",
+      password: "esp32-kenzie",
       clientId: "sigeta-web-" + Math.random().toString(16).substr(2, 8),
       reconnectPeriod: 3000,
       connectTimeout: 6000,
